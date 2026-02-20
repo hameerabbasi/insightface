@@ -1,10 +1,11 @@
 [build-system]
-requires = ["setuptools>=80", "numpy>=2.3", "cython>=3.2", "setuptools_scm>=9"]
+requires = ["setuptools>=80", "numpy>=2", "cython>=3.2", "setuptools_scm>=9"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "insightface"
+name = "insightfacex"
 dynamic = ["version"]
+requires-python = ">=3.9,<4"
 dependencies = [
     "numpy",
     "onnx",
@@ -36,6 +37,6 @@ exclude = ["*.docs.*", "*.tests.*", "*.scripts.*"]
 insightface-cli = "insightface.commands.insightface_cli:main"
 
 [project.urls]
-Homepage = "https://github.com/deepinsight/insightface"
-Repository = "https://github.com/deepinsight/insightface.git"
-Issues = "https://github.com/deepinsight/insightface/issues"
+Homepage = "https://github.com/hameerabbasi/insightface"
+Repository = "https://github.com/hameerabbasi/insightface.git"
+Issues = "https://github.com/hameerabbasi/insightface/issues"
