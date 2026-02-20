@@ -299,9 +299,9 @@ packages:
   - tifffile ; extra == 'full'
   requires_python: '>=3.9'
 - pypi: ./python-package
-  name: insightface
-  version: 0.0.0
-  sha256: 80c08476c59ed4fa2218dcbb66045f2f8edac684f280761db93ccde80979cabd
+  name: insightfacex
+  version: 0.7.4+d20260220
+  sha256: e3ec6f9ce1ca538276577c567e2603d3b7ad386d74c4ae6c9dff3568449d0521
   requires_dist:
   - numpy
   - onnx
@@ -316,6 +316,7 @@ packages:
   - cython
   - albumentations
   - prettytable
+  requires_python: '>=3.9,<4'
 - pypi: https://files.pythonhosted.org/packages/7b/91/984aca2ec129e2757d1e4e3c81c3fcda9d0f85b74670a094cc443d9ee949/joblib-1.5.3-py3-none-any.whl
   name: joblib
   version: 1.5.3
